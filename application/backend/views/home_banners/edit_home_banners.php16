@@ -1,0 +1,91 @@
+
+  <div class="warper container-fluid">
+	<div class="page-header"><h1>Change Home Banners </h1></div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">Change Home Banners
+	<a href="<?php echo BASEURL ?>/home_banners" class="btn btn-purple btn-sm pull-right " style="margin-top:-5px;" type="button"><i class="fa fa-hand-o-left"></i> Go back </a>						
+					</div>
+				<div class="panel-body">
+
+  <form  name="formbanners" action="<?php echo BASEURL; ?>/home_banners/add_home_banners/<?php echo $home_bannersdata['id']; ?>" enctype="multipart/form-data" id='form_home_banners_validation' method='post'>
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+			 <div class="col-md-6 col-sm-6 col-xs-6 ">
+			 <label>Main Banner Image</label>
+			 <input name="main_banner"  id="main_banner" type="file" class="" />
+							</div></div><div class="col-md-6 col-sm-6 col-xs-6 "></div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+			 <div class="col-md-6 col-sm-6 col-xs-6 ">
+			 <label>Product Banner Image</label>
+			 <input name="product_banner"  id="product_banner" type="file" class="" />
+							</div></div><div class="col-md-6 col-sm-6 col-xs-6 "></div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+			 <div class="col-md-6 col-sm-6 col-xs-6 ">
+			 <label>Women Banner Image</label>
+			 <input name="women_banner"  id="women_banner"  type="file"  class=""/>
+							</div></div><div class="col-md-6 col-sm-6 col-xs-6 "></div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+			 <div class="col-md-6 col-sm-6 col-xs-6 ">
+			 <label>Men Banner Image</label>
+			 <input name="men_banner"  id="men_banner"  type="file"  class="" />
+							</div></div><div class="col-md-6 col-sm-6 col-xs-6 "></div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+			 <div class="col-md-6 col-sm-6 col-xs-6 ">
+			 <label>Womens Banner Image</label>
+			 <input name="Womens_banner"  id="about_us"   type="file"   class=""/>
+							</div></div><div class="col-md-6 col-sm-6 col-xs-6 "></div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+			 <div class="col-md-6 col-sm-6 col-xs-6 ">
+			 <label>Mens Banners Image</label>
+			 <input name="mens_banner"  id="about_us" type="file"   class=""/>
+							</div></div><div class="col-md-6 col-sm-6 col-xs-6 "></div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12 ">
+							<div class="col-md-6 col-sm-6 col-xs-6 ">
+							<div id="loader" class="pull-right " >
+							</div>	
+							</div>	
+								<div class="col-md-6 col-sm-6 col-xs-6 ">
+								<div class="pull-right ">
+									
+									<input class="btn btn-purple" value="Send" type="submit" />
+									<span></span>
+									
+								<a href="<?php echo BASEURL; ?>/home_banners"  class="btn btn-danger" ><i class="fa fa-close"></i> Cancel</a>	  
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

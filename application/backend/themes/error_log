@@ -1,0 +1,5 @@
+[22-Jul-2016 08:44:24 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home4/ibrxhim/public_html/application/backend/themes/login.php on line 15
+[22-Jul-2016 08:44:36 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home4/ibrxhim/public_html/application/backend/themes/includes/mainlayout/sidebar.php on line 3
+[22-Jul-2016 08:44:59 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home4/ibrxhim/public_html/application/backend/themes/includes/mainlayout/sidebar.php on line 3
+[17-Aug-2016 03:53:30 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home4/ibrxhim/public_html/application/backend/themes/login.php on line 15
+[17-Aug-2016 12:23:50 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home4/ibrxhim/public_html/application/backend/themes/includes/mainlayout/sidebar.php on line 3
